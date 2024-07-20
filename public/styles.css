@@ -667,6 +667,11 @@ video {
   display: none;
 }
 
+.size-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -789,6 +794,10 @@ video {
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-2 {
+  width: 0.5rem;
 }
 
 .flex-1 {
