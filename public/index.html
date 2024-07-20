@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>هدر رسپانسیو</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <p class="bg-red-200">hi</p>
+<body class="font-poppins pb-[2000px]">
+
+<header>
+    <section class="flex justify-between items-center bg-white shadow-xl fixed w-full px-[10%] z-20">
+        <!-- site logo -->
+         <div>
+            <img src="../img/Logo-tVY3lrwA.png" alt="site logo" width="60px">
+         </div>
+         <!-- navigation menu -->
+          <ul class="flex items-center gap-x-5">
+            <li><a class="hover:text-orange-600 transition-all duration-150 text-orange-600 border-b-[2px] border-orange-600" href="#">Home</a></li>
+            <li><a class="hover:text-orange-600 transition-all duration-150" href="#">My Projects</a></li>
+            <li><a class="hover:text-orange-600 transition-all duration-150" href="#">Contact</a></li>
+          </ul>
+    </section>
+</header>
+
+<main class="flex pt-36">
+    <div class="grid grid-cols-1 lg:flex justify-center items-center gap-10 gap-y-20">
+        <!-- my description -->
+         <div class="lg:w-1/2 text-center order-4 lg:order-[0]">
+            <h2 class="text-orange-600">WEB DEVELOPER</h2>
+            <h3 class="text-5xl font-bold py-5 leading-tight">Hello, my name is Mohamad Mobin Rezaee</h3>
+            <p>Brief description with insights into myself, my vocational journey, and what I engage in professionally.</p>
+            <!-- Buttons -->
+            <div class="flex gap-x-10 justify-center py-8">
+                <button class="bg-orange-600 text-white py-2 px-6 rounded-full"><a class="flex items-center gap-x-1" href="#"> <span>Contact me</span> <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M234.27,29.22a5,5,0,0,0-5.1-.87L26.51,107.66a10.22,10.22,0,0,0,1.75,19.56L84,138.16V200a12,12,0,0,0,7.51,11.13A12.1,12.1,0,0,0,96,212a12,12,0,0,0,8.62-3.68l28-29,43,37.71a12,12,0,0,0,7.89,3,12.47,12.47,0,0,0,3.74-.59,11.87,11.87,0,0,0,8-8.72L235.87,34.12A5,5,0,0,0,234.27,29.22ZM28,117.38a2.13,2.13,0,0,1,1.42-2.27L204.07,46.76l-117,83.85L29.81,119.37A2.12,2.12,0,0,1,28,117.38Zm70.87,85.38A4,4,0,0,1,92,200V143.7L126.58,174Zm88.58,6.14a4,4,0,0,1-6.57,2.09L94.43,135.18,226.13,40.8Z"></path></svg></span> </a></button>
+                <button><a class="flex items-center gap-x-1" href="#"> <span>Download CV</span> <span><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg></span> </a></button>
+            </div>
+         </div>
+         <!-- My Picture -->
+        <div class="justify-center lg:block sm:flex hidden">
+            <svg class="absolute" xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 505 505" fill="none"><path d="M414.573 43.0779C455.283 71.8338 484.948 116.39 497.571 164.106C509.879 212.137 505.461 263.329 494.731 317.365C483.686 371.401 466.013 427.965 427.827 462.093C389.642 496.537 330.312 508.545 274.454 504.121C218.595 499.697 165.893 478.525 125.814 445.029C85.4189 411.217 57.6476 364.765 33.9788 312.309C10.31 259.853 -9.25622 201.077 4.62947 151.466C18.1996 101.538 64.906 60.7738 114.768 34.8619C164.946 9.26592 217.964 -1.16205 270.351 0.101944C322.738 1.36594 374.178 14.3219 414.573 43.0779Z" fill="#F66C59"/></svg>
+            <img class="relative -top-7 -right-2 lg:-top-5 lg:-right-9 w-[350px]" src="../img/developer-c8xHWYuC.png" alt="my pic">
+        </div>
+    </div>
+
+</main>
+<footer></footer>
+
 </body>
 
 </html>
