@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Projects</title>
 </head>
 <body>
-    <div class="md:grid grid-cols-2 gap-y-28 space-y-32 md:space-y-0 pt-20">
+
+    <section class="flex justify-between items-center bg-white shadow-xl fixed w-full px-[10%] z-20">
+        <!-- site logo -->
+         <div>
+            <img src="../img/Logo-tVY3lrwA.png" alt="site logo" width="60px">
+         </div>
+         <!-- navigation menu -->
+          <ul class="flex items-center gap-x-5">
+            <li><a class="hover:text-orange-600 transition-all duration-150" href="index.html">Home</a></li>
+            <li><a class="hover:text-orange-600 transition-all duration-150 text-orange-600 border-b-[2px] border-orange-600 pb-1" href="index-2.html">My Projects</a></li>
+            <li><a class="hover:text-orange-600 transition-all duration-150" href="index-3.html">Contact</a></li>
+          </ul>
+    </section>
+
+    <div class="md:grid grid-cols-2 gap-y-28 space-y-32 md:space-y-0 pt-36">
         <!-- 1 -->
         <div class="relative h-56 bg-white rounded-xl shadow-lg ring-1 ring-slate-200 px-20 md:w-[70%] w-[90%] mx-auto">
             <img loading="lazy" class="absolute -top-16 left-[5%] ring-1 ring-slate-200 rounded-xl w-[90%] h-[160px] object-cover shadow-lg" src="../img/Bookmark-page.png" alt="">
